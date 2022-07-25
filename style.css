@@ -181,6 +181,6 @@ button:active {
     display: flex;
     border: none;
     box-shadow: 0.5rem 0.5rem 0.5rem black;
-    width: auto;
+    width: 100%;
     }
 }
