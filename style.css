@@ -178,10 +178,7 @@ button:active {
     font-size: 10px;
   }
   #photo {
-    display: flex;
-    border: none;
-    box-shadow: 0.5rem 0.5rem 0.5rem black;
-    width: 490px;
+    width: auto;
     height: auto;
    }
 }
