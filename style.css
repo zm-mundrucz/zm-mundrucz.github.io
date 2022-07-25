@@ -165,3 +165,22 @@ button:active {
       font-size: 16px;
     }
 }
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+  width: 100%;
+  }
+  footer {
+    display: block;
+  }
+  nav ul {
+    justify-content: space-between;
+    font-size: 10px;
+  }
+  #photo {
+    display: flex;
+    border: none;
+    box-shadow: 0.5rem 0.5rem 0.5rem black;
+    width: auto;
+    }
+}
