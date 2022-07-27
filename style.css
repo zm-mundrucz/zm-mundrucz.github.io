@@ -181,6 +181,7 @@ button:active {
     width: 100%;
    }
    .photo {
+       display: block;
        height: auto;
        width: 100%;
 }
