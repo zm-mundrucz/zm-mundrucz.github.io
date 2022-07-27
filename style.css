@@ -92,7 +92,7 @@ button:active {
     justify-content: space-around;
   }
 
-  #photo {
+  .photo {
   display: flex;
   border: none;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
@@ -180,6 +180,6 @@ button:active {
   .profile {
     width: 100%;
    }
-   #photo {
+   .photo {
        width: 100%;
 }
