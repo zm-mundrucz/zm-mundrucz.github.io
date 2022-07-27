@@ -164,14 +164,6 @@ button:active {
       justify-content: space-between;
       font-size: 16px;
     }
-   .profile {
-    width: 100%;
-   }
-   .photo {
-       display: block;
-       height: auto;
-       width: 100%;
-}
 }
 
 @media only screen and (max-width: 500px) {
@@ -189,8 +181,7 @@ button:active {
     width: 100%;
    }
    .photo {
-       display: block;
        height: auto;
        width: 100%;
-    }
+   }
 }
