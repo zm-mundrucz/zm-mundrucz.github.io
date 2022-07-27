@@ -175,7 +175,7 @@ button:active {
   }
   nav ul {
     justify-content: space-between;
-    font-size: 10px;
+    font-size: 12px;
   }
   .profile {
     width: auto;
