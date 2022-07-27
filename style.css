@@ -177,7 +177,7 @@ button:active {
     justify-content: space-between;
     font-size: 10px;
   }
-  #photo {
+  .profile {
     width: auto;
    }
 }
