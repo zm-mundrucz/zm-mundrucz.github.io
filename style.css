@@ -178,6 +178,6 @@ button:active {
     font-size: 12px;
   }
   .profile {
-    width: auto;
+    width: 100%;
    }
 }
