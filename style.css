@@ -144,7 +144,7 @@ button:active {
   width: 49.99999%;
 }
   .profile {
-    display: flex;
+    display: grid;
   }
   h1 {
     text-align: center;
