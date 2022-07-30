@@ -92,7 +92,7 @@ button:active {
     justify-content: space-around;
   }
 
-  .photo {
+  .photo img {
   display: flex;
   border: none;
   box-shadow: 0.5rem 0.5rem 0.5rem black;
@@ -144,7 +144,7 @@ button:active {
   width: 49.99999%;
 }
   .profile {
-    display: inline-block;
+    display: flex;
   }
   h1 {
     text-align: center;
@@ -176,12 +176,6 @@ button:active {
     font-size: 12px;
   }
   .profile {
-        width: 100%;
-        height: auto;
-   }
-   .photo {
-        display: flex;
-        align-items: stretch;
         width: 100%;
         height: auto;
    }
