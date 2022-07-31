@@ -2,6 +2,12 @@ const body = document.getElementById("body");
 
 const button = document.getElementById("random");
 
+const color1 = document.querySelector("#color1");
+
+const color2 = document.querySelector("#color2");
+
+const color3 = document.querySelector("#color3");
+
 const generateImage = () => {
     const direction = Math.round(Math.random() * 360);
 
@@ -23,4 +29,11 @@ const generateImage = () => {
     const background = body.style.background = `linear-gradient(${direction}deg, rgba(${r1},${g1},${b1},${a1}), rgba(${r2},${g2},${b2},${a2}), rgba(${r3},${g3},${b3},${a3}))`;
 }
 
+const setGradient = () => {
+  body.style.background = `linear-gradient(to bottom right, ${color1.value}, ${color2.value}, ${color3.value})`;
+}
+
   button.addEventListener("click", generateImage);
+  color1.addEventListener("input", setGradient);
+  color2.addEventListener("input", setGradient);
+  color3.addEventListener("input", setGradient);
